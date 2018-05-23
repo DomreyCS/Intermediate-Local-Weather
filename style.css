@@ -1,113 +1,94 @@
 * {
-    box-sizing: border-box;
-    list-style: none;
-    cursor: default;
+	box-sizing: border-box;
+	list-style: none;
+	cursor: default;
 }
-
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
-    color: #104FD7;
-    background-color: #F3F3F3;
-    position: relative;
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: #104FD7;
+	background-color: #F3F3F3;
+	position: relative;
 }
-
 main {
-    margin-top: 10%;
+	margin-top: 10%;
 }
-
-section > ul {
-    padding: 0;
+section>ul {
+	padding: 0;
 }
-
 .info {
-    width: 500px;
-    margin: 0 auto;
+	width: 500px;
+	margin: 0 auto;
 }
-
 .info__items {
-    height: 40px;
-    width: 500px;
-    margin: 0 auto;
+	height: 40px;
+	width: 500px;
+	margin: 0 auto;
 }
-
 .info__item {
-    display: inline-block;
-    margin: 0 35px;
-    font-size: 25px;
-    font-weight: 100;
+	display: inline-block;
+	margin: 0 35px;
+	font-size: 20px;
+	font-weight: 100;
 }
-
 .info__item img {
-    height: 18px;
-    width: 18px;
+	height: 18px;
+	width: 18px;
 }
-
 #clouds {
-    vertical-align: middle;
+	vertical-align: middle;
 }
-
 .temp {
-    width: 175px;
-    height: 125px;
-    margin: 50px auto;
-    font-weight: 100;
-    text-align: center;
+	width: 175px;
+	height: 125px;
+	margin: 50px auto;
+	font-weight: 100;
+	text-align: center;
 }
-
-.temp__items{
-    height: 125px;
-    width: 50px;
-    margin: 0 0;
-    display: inline-block;
+.temp__items {
+	height: 125px;
+	width: 50px;
+	margin: 0 0;
+	display: inline-block;
 }
-
 .temp__item {
-    width: 50px;
-    font-size: 1em;
-    font-weight: 100;
+	width: 50px;
+	font-size: 1em;
+	font-weight: 100;
 }
-
 #temperature {
-    font-size: 6em;
-    font-weight: 500;
-    display: inline-block;
-    width: 120px;
-    height: 125px;
+	font-size: 6em;
+	font-weight: 500;
+	display: inline-block;
+	width: 120px;
+	height: 125px;
 }
-
 #unit {
-    font-size: 2em;
-    font-weight: 300;
-    text-decoration: none;
+	font-size: 2em;
+	font-weight: 300;
+	text-decoration: none;
 }
-
 #unit:hover {
-    font-size: 2.5em;
-    font-weight: 600;
-    cursor: alias;
+	font-size: 2.5em;
+	font-weight: 600;
+	cursor: alias;
 }
-
-
 .condition {
-    width: 175px;
-    height: 200px;
-    margin: 0 auto;
-    font-weight: 100;
+	width: 175px;
+	height: 200px;
+	margin: 0 auto;
+	font-weight: 100;
 }
-
 .condition__item {
-    width: 175px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 10px 0;
+	width: 175px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px 0;
 }
-
 #desc {
-    font-weight: 300;
+	font-weight: 300;
 }
-
 #icon {
-    height: 150px;
-    width: 175px;
+	height: 150px;
+	width: 175px;
 }
