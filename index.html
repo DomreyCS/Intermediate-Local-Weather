@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,300,500" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Local Weather</title>
 </head>
@@ -12,24 +12,24 @@
     <main>
         <section class="info">
             <ul class="info__items">
-                <li id="clouds" class="info__item"><img class="info__icon" src="images/cloud.png"></img>75%</li>
-                <li id="wind" class="info__item"><img class="info__icon" src="images/wind.png"></img>7.7 km/h</li>
-                <li id="humidity" class="info__item"><img class="info__icon" src="images/rain.png"></img>90%</li>
+                <li class="info__item"><img class="info__icon" src="images/cloud.png"></img>  <span id="clouds"></span>&#37;</li>
+                <li class="info__item"><img class="info__icon" src="images/wind.png"> </img><span id="winds"></span>mph</li>
+                <li class="info__item"><img class="info__icon" src="images/rain.png"></img> <span id="pop"></span>&#37;</li>
             </ul>
         </section>
         <section class="temp">
-            <div id="temperature">98</div>
+            <div id="temperature">52</div>
             <ul class="temp__items">
-                <li id="unit" class="temp__item">&#176;F</li>
-                <li id="max" class="temp__item">&uarr;100&#176;</li>
-                <li id="min" class="temp__item">&darr;90&#176;</li>
+                <li id="unit" class="temp__item">&#8451;</li>
+                <li class="temp__item">&uarr;<span id="max"></span>&#176;</li>
+                <li class="temp__item">&darr;<span id="min"></span>&#176;</li>
             </ul>
         </section>
         <section class="condition">
             <ul class="condition__items">
-                <li id="location" class="condition__item">Gotham City, US</li>
-                <li id="description" class="condition__item">Clear</li>
-                <li id="weatherIcon" class="condition__item">{png}</li>
+                <li class="condition__item"><span id="city">Gotham City</span>&#44; <span id="country">US</span></li>
+                <li class="condition__item"><span id="desc">Clear</span></li>
+                <li id="icon" class="condition__item"></li>
             </ul>
         </section>
     </main>

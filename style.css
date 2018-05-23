@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     list-style: none;
+    cursor: default;
 }
 
 body {
@@ -77,11 +78,15 @@ section > ul {
 #unit {
     font-size: 2em;
     font-weight: 300;
+    text-decoration: none;
 }
 
 #unit:hover {
-    font-size: 3em;
+    font-size: 2.5em;
+    font-weight: 600;
+    cursor: alias;
 }
+
 
 .condition {
     width: 175px;
@@ -98,11 +103,11 @@ section > ul {
     margin: 10px 0;
 }
 
-#description {
-    font-weight: 100;
+#desc {
+    font-weight: 300;
 }
 
-#weatherIcon {
+#icon {
     height: 150px;
     width: 175px;
 }
