@@ -7,6 +7,11 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #104FD7;
     background-color: #F3F3F3;
+    position: relative;
+}
+
+main {
+    margin-top: 10%;
 }
 
 section > ul {
@@ -41,14 +46,15 @@ section > ul {
 }
 
 .temp {
-    width: 250px;
-    height: 6em;
-    margin: 0 auto;
-    font-weight: 200;
+    width: 175px;
+    height: 125px;
+    margin: 50px auto;
+    font-weight: 100;
+    text-align: center;
 }
 
 .temp__items{
-    height: 100%;
+    height: 125px;
     width: 50px;
     margin: 0 0;
     display: inline-block;
@@ -62,8 +68,10 @@ section > ul {
 
 #temperature {
     font-size: 6em;
+    font-weight: 500;
     display: inline-block;
-    width: 115px;
+    width: 120px;
+    height: 125px;
 }
 
 #unit {
@@ -71,21 +79,30 @@ section > ul {
     font-weight: 300;
 }
 
-.condition {
-    width: 500px;
-    margin: 0 auto;
+#unit:hover {
+    font-size: 3em;
 }
 
-.condition__items {
-
+.condition {
+    width: 175px;
+    height: 200px;
+    margin: 0 auto;
+    font-weight: 100;
 }
 
 .condition__item {
-    display: inline-block;
+    width: 175px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+#description {
     font-weight: 100;
 }
 
 #weatherIcon {
-    height: ;
-    width: 115px;
+    height: 150px;
+    width: 175px;
 }
